@@ -1,0 +1,14 @@
+h1 {
+   background-color: lightseagreen;
+   color: whitesmoke;
+   padding: .5rem 1em; 
+   text-align: center;
+}
+
+ol li{
+    background-color: yellowgreen;
+    color: #2f4f4f;
+    list-style: none;
+    padding: .25rem;
+    justify-content: initial;
+}
