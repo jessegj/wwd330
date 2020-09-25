@@ -5,10 +5,10 @@ h1 {
    text-align: center;
 }
 
-ol li{
+ol {
     background-color: yellowgreen;
     color: #2f4f4f;
     list-style: none;
-    padding: .25rem;
+    padding: .5% 2.5%;
     justify-content: initial;
 }
