@@ -5,10 +5,12 @@ h1 {
    text-align: center;
 }
 
-ol {
+section ol{
     background-color: yellowgreen;
     color: #2f4f4f;
     list-style: none;
     padding: .5% 2.5%;
-    justify-content: initial;
+    display: grid; 
+    grid-column: 1fr;
 }
+
