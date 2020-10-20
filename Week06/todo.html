@@ -9,18 +9,17 @@
 </head>
 <body>
     <h2>Your To Do List</h2>
-    <div>
-    <input type="text" id="addItem" placeholder="Add new list item here...">
-    <button type="button">Add Item</button>
-    </div>
+    <ul id="list"></ul>
 
-    <ul>
-        <li></li>
+    <input type="text" id="itemList"/>
+    <button onclick="addItem()">add item</button>
+    <input type="checkbox" onchange="addItem(this)">
+
     </ul>
 
     <footer>
-    <button type="button"><a href="../Week06/todo.html">Mylist</a></button>
-    <button type="button"><a href="../Week06/finished.html">Complete</a></button>  
+    <p>test</p>
     </footer>
+    <script src="listItems.js"></script>
 </body>
 </html>
