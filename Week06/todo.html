@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+
+    <header>
+        <p>
+            Your List, All In One Place
+        </p>
+    </header>
+
     <input type="hidden" id="itemCount" name="itemCount" value="0">
     
-    <h2>Your To Do List</h2>
+    <h2>Your List</h2>
     
-    <ul id="list"></ul>
+    <ul class="list" id="list"></ul>
     
     <input type="text" id="itemList"/>
+    <div class="container">
+    <div class="textEntry">
     <button onclick="addItem()">Add Item</button>
     <button onclick="deleteItem()">Delete Item</button>
-
+    </div>
+    </div>
     </ul>
 
 
     
 
     <footer>
-
+        <p>Made by Jesse Jensen</p>
     </footer>
     <script src="listItems.js"></script>
 </body>
