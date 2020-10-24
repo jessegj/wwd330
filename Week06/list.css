@@ -16,8 +16,16 @@ ul {
 
 }
 
-.textEntry {
-    
+button {
+    display: inline-block;
+      background-color: steelblue;
+      color: cornsilk;
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 1.5rem;
+}
+
+label {
+    font-size: 2rem;
 }
 
 header {
