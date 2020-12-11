@@ -16,5 +16,6 @@ button.addEventListener("click", () => {
     ft.getCurrent(currentVal).then((data) => {
         //call UI
         ui.populateUI(data);
+
     });
 });

@@ -21,7 +21,7 @@ class fetch {
 
         //request to URL
 
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${apiKey}&units=metric`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${apiKey}&units=imperial`);
 
         const data = await response.json();
 
