@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,14 +7,66 @@
 </head>
 <body>
 
-    <h1>Weather App</h1>
+    <section class="top">
+        <div class="container">
+            <h1>Weather App</h1>
 
-    <h3>Please enter the name of the city:</h3>
+                <h3>Please enter the name of the city:</h3>
 
-    <input type="text" id="city" placeholder="city name"> <button type="button" onclick="cityName()">Search</button><br><br>
-
+                    <input type="text" id="city" placeholder="city name">
+                <button type="submit" onclick="cityName()">Search</button>
+            <span class="msg"></span>
+        </div>
+    </section>
+    <section class="fetch">
+        <div class="container">
+            <ul class="city"></ul>
+        </div>
+    </section>
 
     <script src="weather.js"></script>
     
 </body>
+</html>-->
+  
+<!DOCTYPE html>
+<html lang="en">
+  <!--<link rel="stylesheet"
+    <href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css"
+  />-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <body>
+        <nav class="navbar navbar-dark bg-primary mb-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">Weather App</a>
+            </div>
+        </nav>
+        <div class="container searchContainer">
+            <div class="search card card-body">
+                <h1>Get the weather for any area</h1>
+                <p class="lead">Please enter a city</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="City">
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        <div class="container text-center mt-2">
+            <button class="btn btn-primary" id="submit">Submit</button>
+        </div>
+        
+        <div id="content">
+
+        </div>
+        <footer class="mt-5 p-3 text-center bg-light">
+             Jesse Jensen WDD330 BYU-I
+        </footer>
+  </body>
+  <script src="fetch.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
 </html>
