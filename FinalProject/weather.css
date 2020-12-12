@@ -1,0 +1,27 @@
+.weatherNav {
+    text-align: center;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    border-radius: .5rem;
+}
+
+.search {
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightslategray;
+    border-radius: .5rem;
+}
+
+.search h1 {
+    text-align: center;
+}
+
+.search p {
+    text-align: center;
+}
+
+.search input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
