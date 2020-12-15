@@ -6,8 +6,8 @@ const ui = new UI();
 
 //add event listeners
 
-const search = document.getElementById("searchUser");
-const button = document.getElementById("submit");
+const search = document.getElementById("searchCity");
+const button = document.getElementById("search");
 
 
 button.addEventListener("click", () => {

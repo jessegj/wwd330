@@ -10,6 +10,10 @@
     border-width: 2px;
     border-color: lightslategray;
     border-radius: .5rem;
+    max-width: 450px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .search h1 {
@@ -18,10 +22,28 @@
 
 .search p {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .search input {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1rem;
+}
+
+.search button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightsteelblue;
+    font-size: 1.5rem;
+    border-style: none;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: lightseagreen;
+    border-radius: .5rem;
 }
