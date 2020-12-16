@@ -41,9 +41,26 @@
     border-style: none;
 }
 
+
+
 .footer {
     text-align: center;
     font-size: 1.5rem;
     background-color: lightseagreen;
     border-radius: .5rem;
+}
+
+.masterConditions {
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightslategray;
+    border-radius: .5rem;
+    max-width: 450px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.conditions {
+    text-align: center;
 }
