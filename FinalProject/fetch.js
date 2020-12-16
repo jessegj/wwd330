@@ -18,7 +18,6 @@ class fetch {
 class UI {
     constructor() {
         this.uiContainer = document.getElementById("content");
-        this.city;
     }
 
     populateUI(data) {
@@ -56,6 +55,13 @@ const ui = new UI();
 
 const search = document.getElementById("searchCity");
 const button = document.getElementById("search");
+
+
+    ft.getCurrent(currentVal).then((data) => {
+        //call UI
+        ui.populateUI(data);
+});
+
 
 
 button.addEventListener("click", () => {
